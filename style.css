@@ -6,7 +6,8 @@
 
 body{
     height:100vh;
-    background-color: green;
+    background-image: url(sfondo.jpg);
+    background-size: cover;
 }
 
 header{
@@ -19,6 +20,13 @@ main{
     height:800px;
     margin: auto;
     position: relative;
+}
+
+footer{
+    width:65%;
+    height:100px;
+    margin: auto;
+    background-color: white;
 }
 
 .testa{
@@ -42,6 +50,7 @@ main{
 
 a{
     color: black;
+    text-decoration: none;
 }
 
 .left{
@@ -61,8 +70,8 @@ a{
     background-color: white;
     float: left;
     margin-top: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
     border-radius: 1%;
     padding: 10px;
     font-size: 15px;
@@ -125,4 +134,46 @@ i{
 p{
     font-size: 18px;
     margin-top: 15px;
+}
+
+p a{
+    text-decoration: none;
+    color: green;
+}
+
+.sezione{
+    text-align: center;
+    height: 25px
+}
+
+.icone{
+    height: 75px;
+    position: relative;
+}
+
+.fa-instagram{
+    color: black;
+    font-size: 35px;
+    position: absolute;
+    top:0;
+    left:0;
+    transform: translate(1500%,50%);
+}
+
+.fa-facebook-square{
+    color: black;
+    font-size: 35px;
+    position: absolute;
+    top:0;
+    left:0;
+    transform: translate(500%,50%);
+}
+
+.fa-github{
+    color: black;
+    font-size: 35px;
+    position: absolute;
+    top:0;
+    right:0;
+    transform: translate(-500%,50%);
 }
