@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    height:100vh;
+    background-color: green;
+}
+
+header{
+    width:65%;
+    margin: auto;
+}
+
+main{
+    width:65%;
+    height:800px;
+    margin: auto;
+    position: relative;
+}
+
+.testa{
+    height: 300px;
+    background-image: url(foresta.jpg);
+    background-size: cover;
+    border: 5px solid white;
+}
+
+.menu{
+    height: 50px;
+    background-color: grey;
+}
+
+#lista, #lista li{
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+    padding: 8px;
+}
+
+a{
+    color: black;
+}
+
+.left{
+    width:200px;
+    height: 500px;
+    background-color: white;
+    float: left;
+    margin-top: 10px;
+    border-radius: 1%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.middle{
+    width:470px;
+    height: 230px;
+    background-color: white;
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 1%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.right{
+    width:180px;
+    height: 250px;
+    background-color: white;
+    float: right;
+    margin-top: 10px;
+    border-radius: 1%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.right-middle{
+    width:180px;
+    height: 250px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 1%;
+    padding: 10px;
+    font-size: 15px;
+    position: absolute;
+    right:0;
+    bottom:0;
+    transform: translate(0,-100%);
+}
+
+.right-bottom{
+    width:180px;
+    height: 250px;
+    background-color: white;
+    border-radius: 1%;
+    padding: 10px;
+    font-size: 15px;
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+
+i{
+    color: orange;
+    font-size: 25px;
+}
+
+.titolo{
+    position: relative;
+    display: inline-block;
+    height:60px;
+    width:35px;
+}
+
+.titolone{
+    position: absolute;
+    display:inline-block;
+}
+
+p{
+    font-size: 18px;
+    margin-top: 15px;
+}
